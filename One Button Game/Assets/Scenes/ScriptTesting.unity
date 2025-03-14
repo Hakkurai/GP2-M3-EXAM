@@ -218,9 +218,74 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8849726331301120390, guid: 2aeb775e9f9ceac4688f25d28aa913a5, type: 3}
+    - {fileID: 65702495048144492, guid: 2aeb775e9f9ceac4688f25d28aa913a5, type: 3}
+    - {fileID: 7682558211746646141, guid: 2aeb775e9f9ceac4688f25d28aa913a5, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2aeb775e9f9ceac4688f25d28aa913a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1310174858}
+    - targetCorrespondingSourceObject: {fileID: 7500997436605712568, guid: 2aeb775e9f9ceac4688f25d28aa913a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1346557295}
+    - targetCorrespondingSourceObject: {fileID: 7500997436605712568, guid: 2aeb775e9f9ceac4688f25d28aa913a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1346557296}
+    - targetCorrespondingSourceObject: {fileID: -2268493968148393607, guid: 2aeb775e9f9ceac4688f25d28aa913a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1922938241}
   m_SourcePrefab: {fileID: 100100000, guid: 2aeb775e9f9ceac4688f25d28aa913a5, type: 3}
+--- !u!4 &246867146 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1324114315239436755, guid: 2aeb775e9f9ceac4688f25d28aa913a5, type: 3}
+  m_PrefabInstance: {fileID: 246867145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &263214745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 263214746}
+  m_Layer: 0
+  m_Name: Cue Balls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &263214746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263214745}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.179136, y: -9.85025, z: 18.563915}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 440737943}
+  - {fileID: 870336921}
+  - {fileID: 1881337492}
+  - {fileID: 508727917}
+  - {fileID: 701500320}
+  - {fileID: 1073770542}
+  - {fileID: 1226105171}
+  - {fileID: 1207834999}
+  - {fileID: 477014783}
+  - {fileID: 842495311}
+  - {fileID: 956755026}
+  - {fileID: 2140445681}
+  - {fileID: 562163419}
+  - {fileID: 1608158234}
+  - {fileID: 2029507714}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,6 +298,7 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
+  - component: {fileID: 330585548}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -307,13 +373,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.37, z: -22.03}
+  m_LocalRotation: {x: 0.0741526, y: -0.7231079, z: 0.07005615, w: 0.6831608}
+  m_LocalPosition: {x: 4.205, y: 4.014, z: -0.575}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 11.691, y: -93.323, z: -0.674}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -358,6 +424,21 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &330585548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c36a3033e2ac634abb25e2b9be6250e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cueBall: {fileID: 246867146}
+  smoothSpeed: 5
+  offset: {x: 1, y: 3, z: -5}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,6 +571,8 @@ GameObject:
   - component: {fileID: 440737943}
   - component: {fileID: 440737942}
   - component: {fileID: 440737941}
+  - component: {fileID: 440737945}
+  - component: {fileID: 440737944}
   m_Layer: 0
   m_Name: cue_ball
   m_TagString: Untagged
@@ -559,12 +642,60 @@ Transform:
   m_GameObject: {fileID: 440737940}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -2.526, y: 3.323, z: -0.48400813}
+  m_LocalPosition: {x: 5.6531363, y: 13.17325, z: -19.047924}
   m_LocalScale: {x: 377.53998, y: 377.53998, z: 377.53998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 263214746}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &440737944
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440737940}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00028575014
+  m_Center: {x: -1.1641532e-10, y: -2.6020844e-18, z: -8.7311505e-11}
+--- !u!54 &440737945
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440737940}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!1 &477014780
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +707,8 @@ GameObject:
   - component: {fileID: 477014783}
   - component: {fileID: 477014782}
   - component: {fileID: 477014781}
+  - component: {fileID: 477014785}
+  - component: {fileID: 477014784}
   m_Layer: 0
   m_Name: cue_ball (10)
   m_TagString: Untagged
@@ -645,12 +778,60 @@ Transform:
   m_GameObject: {fileID: 477014780}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -2.908, y: 3.323, z: -0.694}
+  m_LocalPosition: {x: 5.2711363, y: 13.17325, z: -19.257915}
   m_LocalScale: {x: 377.53998, y: 377.53998, z: 377.53998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 263214746}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &477014784
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477014780}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00028575014
+  m_Center: {x: -2.6020877e-18, y: 4.656613e-10, z: -8.7311505e-11}
+--- !u!54 &477014785
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477014780}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!1 &508727914
 GameObject:
   m_ObjectHideFlags: 0
@@ -662,6 +843,8 @@ GameObject:
   - component: {fileID: 508727917}
   - component: {fileID: 508727916}
   - component: {fileID: 508727915}
+  - component: {fileID: 508727919}
+  - component: {fileID: 508727918}
   m_Layer: 0
   m_Name: cue_ball (1)
   m_TagString: Untagged
@@ -731,12 +914,60 @@ Transform:
   m_GameObject: {fileID: 508727914}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -3.28, y: 3.323, z: -0.034}
+  m_LocalPosition: {x: 4.8991365, y: 13.17325, z: -18.597916}
   m_LocalScale: {x: 377.53998, y: 377.53998, z: 377.53998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 263214746}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &508727918
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508727914}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00028575014
+  m_Center: {x: -2.6020877e-18, y: -2.6020844e-18, z: -8.7311505e-11}
+--- !u!54 &508727919
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508727914}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!1 &562163416
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,6 +979,8 @@ GameObject:
   - component: {fileID: 562163419}
   - component: {fileID: 562163418}
   - component: {fileID: 562163417}
+  - component: {fileID: 562163421}
+  - component: {fileID: 562163420}
   m_Layer: 0
   m_Name: cue_ball (3)
   m_TagString: Untagged
@@ -817,12 +1050,60 @@ Transform:
   m_GameObject: {fileID: 562163416}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -3.28, y: 3.323, z: -0.467}
+  m_LocalPosition: {x: 4.8991365, y: 13.17325, z: -19.030914}
   m_LocalScale: {x: 377.53998, y: 377.53998, z: 377.53998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 263214746}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &562163420
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562163416}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00028575014
+  m_Center: {x: -1.1641532e-10, y: -2.6020844e-18, z: -8.7311505e-11}
+--- !u!54 &562163421
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562163416}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!1001 &681495212
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -841,43 +1122,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.7412
+      value: 3.6999953
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5832
+      value: 3.462411
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.588
+      value: -0.565
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7303933
+      value: 0.7212663
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.06824466
+      value: 0.020404214
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.67559224
+      value: -0.69201094
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.07378041
+      value: 0.021896996
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 11.501
+      value: 3.425
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -85.444
+      value: -87.623
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.91
+      value: 0.192
       objectReference: {fileID: 0}
     - target: {fileID: -7171607895111325692, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -936,9 +1217,16 @@ PrefabInstance:
       value: cue_stick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 65702495048144492, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1120331601}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 760364181}
   m_SourcePrefab: {fileID: 100100000, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
 --- !u!1 &701500317
 GameObject:
@@ -951,6 +1239,8 @@ GameObject:
   - component: {fileID: 701500320}
   - component: {fileID: 701500319}
   - component: {fileID: 701500318}
+  - component: {fileID: 701500322}
+  - component: {fileID: 701500321}
   m_Layer: 0
   m_Name: cue_ball (6)
   m_TagString: Untagged
@@ -1020,12 +1310,86 @@ Transform:
   m_GameObject: {fileID: 701500317}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -3.121, y: 3.323, z: -0.135}
+  m_LocalPosition: {x: 5.058136, y: 13.17325, z: -18.698915}
   m_LocalScale: {x: 377.53998, y: 377.53998, z: 377.53998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 263214746}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &701500321
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701500317}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00028575014
+  m_Center: {x: -2.6020877e-18, y: -2.6020844e-18, z: -8.7311505e-11}
+--- !u!54 &701500322
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701500317}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
+--- !u!1 &760364179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
+  m_PrefabInstance: {fileID: 681495212}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &760364180 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 29f2160a2e4aae44e819bc6e09a7332b, type: 3}
+  m_PrefabInstance: {fileID: 681495212}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &760364181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760364179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7927b1267bb18f842bd571248864dff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cueBall: {fileID: 1346557295}
+  minForce: 5
+  maxForce: 30
+  chargeSpeed: 10
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1086,6 +1450,8 @@ GameObject:
   - component: {fileID: 842495311}
   - component: {fileID: 842495310}
   - component: {fileID: 842495309}
+  - component: {fileID: 842495313}
+  - component: {fileID: 842495312}
   m_Layer: 0
   m_Name: cue_ball (11)
   m_TagString: Untagged
@@ -1155,12 +1521,60 @@ Transform:
   m_GameObject: {fileID: 842495308}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -2.899, y: 3.323, z: -0.465}
+  m_LocalPosition: {x: 5.280136, y: 13.17325, z: -19.028915}
   m_LocalScale: {x: 377.53998, y: 377.53998, z: 377.53998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 263214746}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &842495312
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842495308}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00028575014
+  m_Center: {x: -2.6020877e-18, y: -2.6020844e-18, z: -8.7311505e-11}
+--- !u!54 &842495313
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842495308}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!1 &870336918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1172,6 +1586,8 @@ GameObject:
   - component: {fileID: 870336921}
   - component: {fileID: 870336920}
   - component: {fileID: 870336919}
+  - component: {fileID: 870336923}
+  - component: {fileID: 870336922}
   m_Layer: 0
   m_Name: cue_ball (13)
   m_TagString: Untagged
@@ -1241,12 +1657,60 @@ Transform:
   m_GameObject: {fileID: 870336918}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -2.703, y: 3.323, z: -0.348}
+  m_LocalPosition: {x: 5.476136, y: 13.17325, z: -18.911915}
   m_LocalScale: {x: 377.53998, y: 377.53998, z: 377.53998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 263214746}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &870336922
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870336918}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00028575014
+  m_Center: {x: -2.6020877e-18, y: -2.6020844e-18, z: -8.7311505e-11}
+--- !u!54 &870336923
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870336918}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!1 &956755023
 GameObject:
   m_ObjectHideFlags: 0
@@ -1258,6 +1722,8 @@ GameObject:
   - component: {fileID: 956755026}
   - component: {fileID: 956755025}
   - component: {fileID: 956755024}
+  - component: {fileID: 956755028}
+  - component: {fileID: 956755027}
   m_Layer: 0
   m_Name: cue_ball (12)
   m_TagString: Untagged
@@ -1327,12 +1793,60 @@ Transform:
   m_GameObject: {fileID: 956755023}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -2.913, y: 3.323, z: -0.231}
+  m_LocalPosition: {x: 5.266136, y: 13.17325, z: -18.794916}
   m_LocalScale: {x: 377.53998, y: 377.53998, z: 377.53998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 263214746}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &956755027
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956755023}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00028575014
+  m_Center: {x: 5.8207657e-11, y: -2.6020844e-18, z: -8.7311505e-11}
+--- !u!54 &956755028
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956755023}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!1 &1073770539
 GameObject:
   m_ObjectHideFlags: 0
@@ -1344,6 +1858,8 @@ GameObject:
   - component: {fileID: 1073770542}
   - component: {fileID: 1073770541}
   - component: {fileID: 1073770540}
+  - component: {fileID: 1073770544}
+  - component: {fileID: 1073770543}
   m_Layer: 0
   m_Name: cue_ball (7)
   m_TagString: Untagged
@@ -1413,11 +1929,112 @@ Transform:
   m_GameObject: {fileID: 1073770539}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -3.102, y: 3.323, z: -0.351}
+  m_LocalPosition: {x: 5.077136, y: 13.17325, z: -18.914915}
   m_LocalScale: {x: 377.53998, y: 377.53998, z: 377.53998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 263214746}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1073770543
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073770539}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00028575014
+  m_Center: {x: -2.6020877e-18, y: -2.6020844e-18, z: -8.7311505e-11}
+--- !u!54 &1073770544
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073770539}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
+--- !u!1 &1120331599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1120331601}
+  - component: {fileID: 1120331600}
+  m_Layer: 0
+  m_Name: BoxCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1120331600
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120331599}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1120331601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120331599}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.020404214, y: 0.69201094, z: -0.021896996, w: 0.7212663}
+  m_LocalPosition: {x: 0.00006173596, y: 0.0027300487, z: 0.74884355}
+  m_LocalScale: {x: 0.012571291, y: 0.019720841, z: 0.015434861}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 760364180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1207834996
 GameObject:
@@ -1430,6 +2047,8 @@ GameObject:
   - component: {fileID: 1207834999}
   - component: {fileID: 1207834998}
   - component: {fileID: 1207834997}
+  - component: {fileID: 1207835001}
+  - component: {fileID: 1207835000}
   m_Layer: 0
   m_Name: cue_ball (9)
   m_TagString: Untagged
@@ -1499,12 +2118,60 @@ Transform:
   m_GameObject: {fileID: 1207834996}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -3.102, y: 3.323, z: -0.792}
+  m_LocalPosition: {x: 5.077136, y: 13.17325, z: -19.355915}
   m_LocalScale: {x: 377.53998, y: 377.53998, z: 377.53998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 263214746}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1207835000
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207834996}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00028575014
+  m_Center: {x: -2.6020877e-18, y: -2.6020844e-18, z: -8.7311505e-11}
+--- !u!54 &1207835001
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207834996}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!1 &1226105168
 GameObject:
   m_ObjectHideFlags: 0
@@ -1516,6 +2183,8 @@ GameObject:
   - component: {fileID: 1226105171}
   - component: {fileID: 1226105170}
   - component: {fileID: 1226105169}
+  - component: {fileID: 1226105173}
+  - component: {fileID: 1226105172}
   m_Layer: 0
   m_Name: cue_ball (8)
   m_TagString: Untagged
@@ -1585,12 +2254,140 @@ Transform:
   m_GameObject: {fileID: 1226105168}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -3.108, y: 3.323, z: -0.574}
+  m_LocalPosition: {x: 5.0711365, y: 13.17325, z: -19.137915}
   m_LocalScale: {x: 377.53998, y: 377.53998, z: 377.53998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 263214746}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1226105172
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226105168}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00028575014
+  m_Center: {x: -2.6020877e-18, y: -2.6020844e-18, z: -8.7311505e-11}
+--- !u!54 &1226105173
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226105168}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
+--- !u!1 &1310174856 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2aeb775e9f9ceac4688f25d28aa913a5, type: 3}
+  m_PrefabInstance: {fileID: 246867145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1310174858
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310174856}
+  m_Material: {fileID: 13400000, guid: 4103b393923764a479678248ba3e2fd0, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!1 &1346557292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7500997436605712568, guid: 2aeb775e9f9ceac4688f25d28aa913a5, type: 3}
+  m_PrefabInstance: {fileID: 246867145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1346557295
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346557292}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
+--- !u!135 &1346557296
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346557292}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.0002857501
+  m_Center: {x: -2.6020877e-18, y: 4.656613e-10, z: -8.731149e-11}
 --- !u!1 &1365058484
 GameObject:
   m_ObjectHideFlags: 0
@@ -1710,6 +2507,8 @@ GameObject:
   - component: {fileID: 1608158234}
   - component: {fileID: 1608158233}
   - component: {fileID: 1608158232}
+  - component: {fileID: 1608158236}
+  - component: {fileID: 1608158235}
   m_Layer: 0
   m_Name: cue_ball (4)
   m_TagString: Untagged
@@ -1779,12 +2578,60 @@ Transform:
   m_GameObject: {fileID: 1608158231}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -3.28, y: 3.323, z: -0.897}
+  m_LocalPosition: {x: 4.8991365, y: 13.17325, z: -19.460915}
   m_LocalScale: {x: 377.53998, y: 377.53998, z: 377.53998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 263214746}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1608158235
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608158231}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00028575014
+  m_Center: {x: -2.6020877e-18, y: -2.6020844e-18, z: -8.7311505e-11}
+--- !u!54 &1608158236
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608158231}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!1 &1881337489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1796,6 +2643,8 @@ GameObject:
   - component: {fileID: 1881337492}
   - component: {fileID: 1881337491}
   - component: {fileID: 1881337490}
+  - component: {fileID: 1881337494}
+  - component: {fileID: 1881337493}
   m_Layer: 0
   m_Name: cue_ball (14)
   m_TagString: Untagged
@@ -1865,12 +2714,87 @@ Transform:
   m_GameObject: {fileID: 1881337489}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -2.703, y: 3.323, z: -0.578}
+  m_LocalPosition: {x: 5.476136, y: 13.17325, z: -19.141914}
   m_LocalScale: {x: 377.53998, y: 377.53998, z: 377.53998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 263214746}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1881337493
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881337489}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00028575014
+  m_Center: {x: -2.6020877e-18, y: -2.6020844e-18, z: -8.7311505e-11}
+--- !u!54 &1881337494
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881337489}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
+--- !u!1 &1922938237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2268493968148393607, guid: 2aeb775e9f9ceac4688f25d28aa913a5, type: 3}
+  m_PrefabInstance: {fileID: 246867145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1922938241
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922938237}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6317805809608689028, guid: 2aeb775e9f9ceac4688f25d28aa913a5, type: 3}
 --- !u!1 &2029507711
 GameObject:
   m_ObjectHideFlags: 0
@@ -1882,6 +2806,8 @@ GameObject:
   - component: {fileID: 2029507714}
   - component: {fileID: 2029507713}
   - component: {fileID: 2029507712}
+  - component: {fileID: 2029507716}
+  - component: {fileID: 2029507715}
   m_Layer: 0
   m_Name: cue_ball (5)
   m_TagString: Untagged
@@ -1951,12 +2877,60 @@ Transform:
   m_GameObject: {fileID: 2029507711}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -3.28, y: 3.323, z: -0.68}
+  m_LocalPosition: {x: 4.8991365, y: 13.17325, z: -19.243916}
   m_LocalScale: {x: 377.53998, y: 377.53998, z: 377.53998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 263214746}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2029507715
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029507711}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00028575014
+  m_Center: {x: -1.1641532e-10, y: -2.6020844e-18, z: -8.7311505e-11}
+--- !u!54 &2029507716
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029507711}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!1 &2140445678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1968,6 +2942,8 @@ GameObject:
   - component: {fileID: 2140445681}
   - component: {fileID: 2140445680}
   - component: {fileID: 2140445679}
+  - component: {fileID: 2140445683}
+  - component: {fileID: 2140445682}
   m_Layer: 0
   m_Name: cue_ball (2)
   m_TagString: Untagged
@@ -2037,12 +3013,60 @@ Transform:
   m_GameObject: {fileID: 2140445678}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -3.28, y: 3.323, z: -0.244}
+  m_LocalPosition: {x: 4.8991365, y: 13.17325, z: -18.807915}
   m_LocalScale: {x: 377.53998, y: 377.53998, z: 377.53998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 263214746}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2140445682
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140445678}
+  m_Material: {fileID: 13400000, guid: 4efc6c886dab4784fa2e262eb975905f, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00028575014
+  m_Center: {x: 5.8207657e-11, y: -2.6020844e-18, z: -8.7311505e-11}
+--- !u!54 &2140445683
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140445678}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2052,19 +3076,5 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 1365058488}
   - {fileID: 246867145}
-  - {fileID: 440737943}
-  - {fileID: 870336921}
-  - {fileID: 1881337492}
-  - {fileID: 508727917}
-  - {fileID: 701500320}
-  - {fileID: 1073770542}
-  - {fileID: 1226105171}
-  - {fileID: 1207834999}
-  - {fileID: 477014783}
-  - {fileID: 842495311}
-  - {fileID: 956755026}
-  - {fileID: 2140445681}
-  - {fileID: 562163419}
-  - {fileID: 1608158234}
-  - {fileID: 2029507714}
   - {fileID: 681495212}
+  - {fileID: 263214746}
