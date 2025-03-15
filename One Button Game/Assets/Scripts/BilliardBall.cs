@@ -3,36 +3,45 @@ using UnityEngine;
 public class BilliardBall : MonoBehaviour
 {
     private Rigidbody rb;
-    private float stopThreshold = 0.05f; // Speed below which the ball will stop
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
 
-        // ?? Freeze balls 1-15 at start, unfreeze only when first shot happens
-        if (gameObject.CompareTag("BilliardBall"))
+        if (rb == null)
         {
-            rb.isKinematic = true; // Prevents any movement before break
+            Debug.LogError(name + " is missing a Rigidbody!");
         }
-
-        // Make rolling more realistic
-        rb.linearDamping = 0.4f;           // Controls linear stopping
-        rb.angularDamping = 0.5f;    // Controls rotation stopping
+        else
+        {
+            FreezeBall(); // Keep frozen until actually hit
+        }
     }
 
-    void Update()
+    public void Unfreeze()
     {
-        // Auto-stop rolling if speed is too low
-        if (rb.linearVelocity.magnitude < stopThreshold && rb.angularVelocity.magnitude < stopThreshold)
+        if (rb != null)
+        {
+            rb.isKinematic = false; // Allow movement
+        }
+    }
+
+    public void FreezeBall()
+    {
+        if (rb != null)
         {
             rb.linearVelocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
+            rb.isKinematic = true; // Keeps it still until hit
         }
     }
 
-    // Call this when the first shot happens to unfreeze balls
-    public void Unfreeze()
+    // ✅ Only Unfreeze when physically hit by another moving object
+    private void OnCollisionEnter(Collision collision)
     {
-        rb.isKinematic = false; // Balls can now move
+        if (collision.gameObject.CompareTag("CueBall"))
+        {
+            Unfreeze();
+        }
     }
 }
